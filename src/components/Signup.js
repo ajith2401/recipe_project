@@ -6,6 +6,7 @@ function Signup() {
   return (
     <div>
       <form id='signUpForm'>
+      <h2> Signup </h2>
       <input type='text' name='firstName' placeholder='first name' required/>
       <input type='text' name='lastName' placeholder='last name'/>
       <input type='password' id='password' placeholder='password' required/>

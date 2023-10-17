@@ -9,6 +9,7 @@ function Login() {
   return ( 
     <div>
     <form id='loginForm'>
+    <h2> Login </h2>
     <input type='text' placeholder='email or phone nuber' name='emailOrPhonenumber' id='emailOrPhonenumber' {...register("emailOrPhonenumber", {required : "please enter the mail u=id or phone num ber"})}/>
     <input type='password' name='password' id='password' placeholder='password' {...register("password")}/>
     <button id='loginBtn' onClick={()=>navigateTo('/home')}>Login</button>
