@@ -19,7 +19,6 @@ function App() {
         <Route path='/notifications' element={<Notifications />}></Route>
         <Route path='/menu' element={<Menu />}></Route>
         <Route path='/forgotPassword' element={<ForgotPassword />}></Route>
-        
       </Routes>
     </div>
   );
